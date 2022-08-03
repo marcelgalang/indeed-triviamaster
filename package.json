@@ -1,0 +1,41 @@
+{
+  "name": "de-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@reduxjs/toolkit": "1.8.3",
+    "@types/react": "17.0.39",
+    "react": "18.2.0",
+    "react-access-router": "2.0.10",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.2",
+    "react-scripts": "4.0.3",
+    "redux": "4.1.2",
+    "sass": "1.49.7",
+    "styled-components": "5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.25",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "onchange": "^7.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "prettier-watch": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
+    "lint": "eslint . --ext .ts"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
